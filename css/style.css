@@ -39,7 +39,7 @@ html{
     
 }
 
-.header-menu h1{
+.header-menu-h{
 	float: left;
 	font-weight: 800;
 	font-size: 21px;
@@ -330,4 +330,21 @@ transform: scale(0.9);
     -ms-transform: rotate(90deg);
     -o-transform: rotate(90deg);
     transform: rotate(90deg);
+}
+
+.show{
+    display: inline-block!important;
+    background-color: #02ce65;
+    width: 100%;
+    height: 550px;
+    margin:62.7px -199.7px 0 0 ;
+    transition: 0.5 ;
+}
+
+li{
+    list-style: none;
+}
+
+body{
+    z-index: 99999999;
 }

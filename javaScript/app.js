@@ -41,3 +41,24 @@ arrowUp.addEventListener('click', (e)=>{
     e.preventDefault()
     window.scrollTo(0, 0)
 })
+
+
+
+
+const btn = document.querySelector("#btn"),
+headerMenu = document.querySelector('.header-menu')
+let nav = document.querySelectorAll(".nav")
+
+btn.addEventListener("click", () => {
+    // e.preventDefault()
+    if(headerMenu.className === "header-menu"){
+        headerMenu.classList.add("show")
+    }else{
+        headerMenu.classList.remove("show")
+    }
+    
+    if(headerMenu.className === "show"){
+        headerMenuItem = document.querySelectorAll('.header-menu-item').style.display = "block";
+      
+    }
+})
