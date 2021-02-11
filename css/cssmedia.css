@@ -26,7 +26,7 @@
 }
 @media (max-width:389px){
   .header-menu-h{
-      margin: 10px 0 0 -30px;
+      margin: 9px 0 0 -90px;
       font-size: 19px !important;
   }
 
@@ -56,12 +56,18 @@
     }
 
     .show{
-        margin-top: 10px !important;
+        margin-top: 15px !important ;
+        width: 700px;
+    }
+}
+@media (max-width:398px){
+    .show{
+        margin-top: 10px ;
     }
 }
 @media (max-width:407px){
     .show{
-        margin:15px 198.1px 0 0 ;
+        margin:-10px 198.1px 0 0 ;
     }
 }
 @media (max-width:425px){
@@ -103,6 +109,11 @@
         font-size: 9px !important;
     }
 }
+@media (max-width:488px){
+    .show{
+        margin-top: 10px !important;
+    }
+}
 @media (max-width:490px){
     .caption-p p{
         font-size: 15px ;
@@ -114,7 +125,7 @@
 
     .show{
         width: 350px;
-        margin: 13px -199.7px 0 0!important;
+        margin: 5px -199.7px 0 0;
     }
 
     .header-menu-item{
@@ -362,8 +373,8 @@
     }
 
     .header-menu-h{
-        padding: 0.5vw 0 0 -3vw !important;
-      font-size: 17px !important;
+        padding: 0.7vw 0 0 -3vw !important;
+      font-size: 16px !important;
       float: left;
       color: #000000;
     }
