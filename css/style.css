@@ -51,7 +51,7 @@ html{
 }
 .sticky {
     /* background-color:rgba(300,270,3000,100); */
-    background-color: #ffffff;
+    background-color: #ffffff;  
 	position: fixed;
     color: #F8F9FA;
     z-index: 9;
@@ -152,6 +152,7 @@ html{
     margin: 0px 39px 17px 0px;
     color: #FFFEFB;
     font-size: 50px;
+    cursor: pointer;
 }
 
 .caption-1{
@@ -163,18 +164,21 @@ html{
     margin: 0 39px 15px 0;
     color: #F8F9FA;
     font-size: 50px;
+    cursor: pointer;
 }
 
 #trint{
     margin: 0 59px 13px 0 ;
     color: #FFFEFB;
     font-size: 60px;
+    cursor: pointer;
 }
 
 #tape{
     margin: 0 40px 13px 0 ;
     color: #FFFEFB;
     font-size: 60px;
+    cursor: pointer;
 }
 
 .phone{
@@ -210,7 +214,6 @@ margin: 100px 250px 0 0 ;
 }
 
 .sticky-3{
-    border-color: #000000;
     background-color: #fdb827;
     transition: background-color 1s ease;
 }
@@ -248,7 +251,7 @@ margin: 100px 250px 0 0 ;
     outline: none;
 }
 
-.visabale{
+.show-arrowUp{
     display: block;
 }
 .a-l{
@@ -343,5 +346,9 @@ transform: scale(0.9);
 
 li{
     list-style: none;
+}
+
+.hide-arrowUpBtn{
+    display: none!important;
 }
 
