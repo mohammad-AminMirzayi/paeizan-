@@ -68,21 +68,21 @@ const trint = document.querySelector('#trint'),
     tape = document.querySelector('#tape'),
     truck = document.querySelector('#truck'),
     edit = document.querySelector('#edit'),
-    mainSection = document.querySelector(".phone"),
+    mainSection = document.querySelector(".price"),
     ptTrint = document.querySelector(".trint-p")
 
 // icon section listener click
 
 trint.addEventListener('click', () => {
-    //TODO
-    //FIXME
+
+    alert("در قالیشویی پائیزان از بهترین شامپو ها برای شستن فرش های شما عزیزان استفاده میکنند")
 });
 truck.addEventListener('click', () => {
-
+    alert("تحویل سریع به موقع و با نظم را با قالیشویی پائیزان تجربه کنید")
 });
 edit.addEventListener('click', () => {
-
+    alert("فاکتور دقیق فرش شما درب منزل")
 });
 tape.addEventListener('click', () => {
-
+    alert("بسته بندی و کاور منظم در قالیشویی پائیزان با بهترین دستگاها")
 })
