@@ -26,13 +26,16 @@ window.addEventListener('scroll', () => {
 })
 // if scroll change header backgrond color and size backgroundcolor green
 window.addEventListener('scroll', () => {
-    const header = document.querySelector('.header')
+    const header = document.querySelector('.header'),
+        callBtn = document.querySelector(".call-now")
 
     if (window.pageYOffset > 990) {
         header.classList.add('sticky-')
+        callBtn.style.display = "none";
 
     } else {
         header.classList.remove('sticky-')
+        callBtn.style.display = "block";
     }
 })
 // arrowup button
