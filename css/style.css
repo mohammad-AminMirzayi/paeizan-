@@ -178,20 +178,11 @@ html {
   background-color: #474b4f;
   height: 300px;
   width: 100%;
+  display: none;
 }
 
-.phone ul li {
-  list-style: none;
-  float: right;
-  margin: 100px 250px 0 0;
-}
 
-.phone ul li a {
-  color: #000000;
-  font-size: 30px;
-  text-decoration: none;
-  margin: 0 13px 0 0;
-}
+
 
 #i1 {
   font-size: 27px;
@@ -315,13 +306,14 @@ html {
 }
 
 #callbtn-now {
-  padding: 13px 0 0 19px;
+  padding: 17px 19px 0 19px;
   margin-left: 9px;
-  -wedkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  transform: rotate(90deg);
+  -wedkit-transform: rotate(7deg);
+  -moz-transform: rotate(7deg);
+  -ms-transform: rotate(7deg);
+  -o-transform: rotate(7deg);
+  transform: rotate(7deg);
+  font-size: 35px;
 }
 
 .show {

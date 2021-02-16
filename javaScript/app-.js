@@ -60,7 +60,7 @@ btn.addEventListener("click", () => {
     } else {
         headerMenu.classList.remove("show")
     }
-
+    asdasd
     if (headerMenu.className === "show") {
         headerMenuItem = document.querySelectorAll('.header-menu-item').style.display = "block";
 
@@ -74,7 +74,7 @@ const trint = document.querySelector('#trint'),
     mainSection = document.querySelector(".price"),
     ptTrint = document.querySelector(".trint-p")
 
-// icon section listener click
+// icon section listener enabled after click
 
 trint.addEventListener('click', () => {
 
